@@ -20,6 +20,8 @@ General
 * Write a multiply function that multiplies 2 integers without using *
 * HARD: Given a function rand5() that returns a random int between 0 and 5, implement rand7()
 * HARD: Given a 2D array of 1s and 0s, count the number of "islands of 1s" (e.g. groups of connecting 1s)
+
+
 Strings
 * Find the first non-repeated character in a String
 * Reverse a String iteratively and recursively
@@ -30,6 +32,8 @@ Strings
 * HARD: Find the shortest palindrome in a String
 * HARD: Print all permutations of a String
 * HARD: Given a single-line text String and a maximum width value, write the function 'String justify(String text, int maxWidth)' that formats the input text using full-justification, i.e., extra spaces on each line are equally distributed between the words; the first word on each line is flushed left and the last word on each line is flushed right
+
+
 Trees
 * Implement a BST with insert and delete functions
 * Print a tree using BFS and DFS
@@ -44,6 +48,8 @@ Trees
 * Given a tree, verify that it contains a subtree.
 * HARD: Find the max distance between 2 nodes in a BST.
 * HARD: Construct a BST given the pre-order and in-order traversal Strings
+
+
 Stacks, Queues, and Heaps
 * Implement a stack with push and pop functions
 * Implement a queue with queue and dequeue functions
@@ -51,6 +57,8 @@ Stacks, Queues, and Heaps
 * Write a function that sorts a stack (bonus: sort the stack in place without extra memory)
 * Implement a binary min heap. Turn it into a binary max heap
 * HARD: Implement a queue using 2 stacks
+
+
 Linked Lists
 * Implement a linked list (with insert and delete functions)
 * Find the Nth element in a linked list
@@ -59,6 +67,8 @@ Linked Lists
 * Given a circular linked list, find the node at the beginning of the loop. Example: A-->B-->C --> D-->E -->C, C is the node that begins the loop
 * Check whether a link list is a palindrome
 * Reverse a linked list iteratively and recursively
+
+
 Sorting
 * Implement bubble sort
 * Implement selection sort
