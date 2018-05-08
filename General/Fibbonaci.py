@@ -1,4 +1,6 @@
 ###Write fibbonaci iteratively and recursively (bonus: use dynamic programming)###
+import datetime
+
 
 def fibonaccii_iteratively(index):
     a = 0
@@ -30,7 +32,7 @@ def fibonacci_recursively(index):
         return 0
     if index < 2:
         return 1
-    return fibonacci_recursively(index-2) + fibonacci_recursively(index-1)
+    return fibonacci_recursively(index - 2) + fibonacci_recursively(index - 1)
 
 
 def test_fibonacci_recursively():
@@ -40,3 +42,39 @@ def test_fibonacci_recursively():
     assert fibonacci_recursively(3) == 2
     assert fibonacci_recursively(4) == 3
     assert fibonacci_recursively(5) == 5
+
+
+hashTable = dict()
+
+
+def fibonacci_recursively_dynamic(index):
+    if index <= 0:
+        return 0
+    if index < 2:
+        return 1
+    if index not in hashTable:
+        hashTable[index] = fibonacci_recursively_dynamic(index - 2) + fibonacci_recursively_dynamic(index - 1)
+    return hashTable[index]
+
+
+def test_fibonacci_recursively_dynamic():
+    assert fibonacci_recursively_dynamic(0) == 0
+    assert fibonacci_recursively_dynamic(1) == 1
+    assert fibonacci_recursively_dynamic(2) == 1
+    assert fibonacci_recursively_dynamic(3) == 2
+    assert fibonacci_recursively_dynamic(4) == 3
+    assert fibonacci_recursively_dynamic(5) == 5
+
+#showing the time comparision of each solution
+def show_time_comparison():
+    start = datetime.datetime.now()
+    print(fibonaccii_iteratively(35))
+    print('fibonaccii_iteratively finished in: ' + str(datetime.datetime.now() - start))
+    start = datetime.datetime.now()
+    print(fibonacci_recursively(35))
+    print('fibonacci_recursively finished in: ' + str(datetime.datetime.now() - start))
+    start = datetime.datetime.now()
+    print(fibonacci_recursively_dynamic(35))
+    print('fibonacci_recursively_dynamic finished in: ' + str(datetime.datetime.now() - start))
+
+show_time_comparison()
