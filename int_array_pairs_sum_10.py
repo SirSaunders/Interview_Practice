@@ -61,9 +61,10 @@ def best_find_pair_sum(int_arry, target):
         if compliment in hashTable:
             found_compliment = compliment
         if found_compliment and x is not found_compliment:
-            pairs.append((x,found_compliment))
+            pairs.append((x, found_compliment))
     return pairs
 
-def test_best():
-    assert best_find_pair_sum([1, 2, 3, 4, 5, 6, 7, 8, 9], 10) == [(1, 9), (2, 8), (3, 7), (4, 6), (6, 4), (7, 3), (8, 2), (9, 1)]
 
+def test_best():
+    assert best_find_pair_sum([1, 2, 3, 4, 5, 6, 7, 8, 9], 10) == [(1, 9), (2, 8), (3, 7), (4, 6), (6, 4), (7, 3),
+                                                                   (8, 2), (9, 1)]
