@@ -10,7 +10,6 @@ def reverse_iteratively(string):
 def test_reverse_iteratively():
     assert reverse_iteratively('whats up') == 'pu stahw'
 
-#thought this was a cool one liner for python
 def reverse_recursively(string):
     print('')
     length = len(string)
