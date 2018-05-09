@@ -1,5 +1,5 @@
 # Implement insertion sort
-
+# Big O(n^2)
 def insertion_sort(array):
     for i in range(len(array)):
         j = i
