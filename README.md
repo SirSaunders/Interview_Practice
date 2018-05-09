@@ -74,4 +74,4 @@ Sorting
 * Implement selection sort
 - [x] Implement insertion sort
 * Implement merge sort
-* Implement quick sort
+- [x] Implement quick sort
