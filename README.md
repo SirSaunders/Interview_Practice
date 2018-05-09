@@ -4,13 +4,13 @@ Practice interview for general interview questions, answered in python 2.7, most
 
 
 General
-* Find the most frequent integer in an array
-* Find pairs in an integer array whose sum is equal to 10 (bonus: do it in linear time)
-* Given 2 integer arrays, determine of the 2nd array is a rotated version of the 1st array. Ex. Original Array A={1,2,3,5,6,7,8} Rotated Array B={5,6,7,8,1,2,3}
-* Write fibbonaci iteratively and recursively (bonus: use dynamic programming)
-* Find the only element in an array that only occurs once.
-* Find the common elements of 2 int arrays
-* Implement binary search of a sorted array of integers
+- [x] Find the most frequent integer in an array 
+- [x] Find pairs in an integer array whose sum is equal to 10 (bonus: do it in linear time) 
+- [x] Given 2 integer arrays, determine of the 2nd array is a rotated version of the 1st array. Ex. Original Array A={1,2,3,5,6,7,8} Rotated Array B={5,6,7,8,1,2,3}
+- [x] Write fibbonaci iteratively and recursively (bonus: use dynamic programming)
+- [x] Find the only element in an array that only occurs once.
+- [x] Find the common elements of 2 int arrays
+- [x] Implement binary search of a sorted array of integers
 * Implement binary search in a rotated array (ex. {5,6,7,8,1,2,3})
 * Use dynamic programming to find the first X prime numbers
 * Write a function that prints out the binary form of an int
@@ -23,11 +23,11 @@ General
 
 
 Strings
-* Find the first non-repeated character in a String
-* Reverse a String iteratively and recursively
-* Determine if 2 Strings are anagrams
-* Check if String is a palindrome
-* Check if a String is composed of all unique characters
+- [x] Find the first non-repeated character in a String
+- [x] Reverse a String iteratively and recursively
+- [x] Determine if 2 Strings are anagrams
+- [x] Check if String is a palindrome
+- [x] Check if a String is composed of all unique characters
 * Determine if a String is an int or a double
 * HARD: Find the shortest palindrome in a String
 * HARD: Print all permutations of a String
