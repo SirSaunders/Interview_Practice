@@ -72,6 +72,6 @@ Linked Lists
 Sorting
 * Implement bubble sort
 * Implement selection sort
-* Implement insertion sort
+- [x] Implement insertion sort
 * Implement merge sort
 * Implement quick sort
