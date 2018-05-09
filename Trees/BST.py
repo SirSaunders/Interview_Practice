@@ -21,7 +21,7 @@ class node:
         self.left = node
 
     def getValue(self):
-        self.value
+        return self.value
 
     def setValue(self, value):
         self.value = value
@@ -49,3 +49,23 @@ def insert(root, node):
             else:
                 root.setRight(node)
             insert(rootRight, node)
+
+
+def in_order_print(root):
+    if not root:
+        return
+    in_order_print(root.getLeft())
+    print root.getValue()
+    in_order_print(root.getRight())
+
+
+
+def t():
+    root = node(4)
+    insert(root, node(6))
+    insert(root, node(2))
+    insert(root, node(9))
+    insert(root, node(3))
+
+    in_order_print(root)
+t()
