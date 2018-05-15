@@ -80,7 +80,13 @@ Graphs
 * BFS
 * DFS
 * Topological Sort & Shortest-path in a DAG
-* Dijkstra's algorithm
+* Shortest Path from source to all vertices **Dijkstra** 
 * Bellman-Ford
 * A-star (A*)
-* Floyd-Warshall (debatable, but it's 5 lines of code, so no reason not to know it)
+* Shortest Path from every vertex to every other vertex **Floyd Warshall**
+* To detect cycle in a Graph **Union Find**
+*  Minimum Spanning tree **Prim** 
+* Minimum Spanning tree **Kruskal** 
+* Topological Sort
+* Boggle (Find all possible words in a board of characters)
+* Bridges in a Graph
