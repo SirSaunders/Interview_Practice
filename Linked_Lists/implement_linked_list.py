@@ -1,4 +1,6 @@
 # Implement a linked list (with insert and delete functions)
+# Find the Nth element in a linked list
+# Remove the Nth element of a linked list
 
 class List_element:
     right = None
@@ -53,7 +55,7 @@ class Link_List:
                 previous_list_item.right = current_list_item.right
             self.size -= 1
 
-def t():
+def t1():
     list = Link_List()
     list.insert(2)
     list.insert(3)
@@ -68,4 +70,4 @@ def t():
     list.printList()
 
 
-t()
+t1()
