@@ -1,6 +1,8 @@
 # Interview_Practive
 Practice interview for general interview questions, answered in python 2.7, mostly tested with pytest
 
+Helpful reference link: https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/#algo1
+
 
 
 General
