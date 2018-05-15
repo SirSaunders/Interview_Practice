@@ -75,3 +75,12 @@ Sorting
 - [x] Implement insertion sort
 * Implement merge sort
 - [x] Implement quick sort
+
+Graphs
+* BFS
+* DFS
+* Topological Sort & Shortest-path in a DAG
+* Dijkstra's algorithm
+* Bellman-Ford
+* A-star (A*)
+* Floyd-Warshall (debatable, but it's 5 lines of code, so no reason not to know it)
