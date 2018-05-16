@@ -85,7 +85,7 @@ Sorting
 
 Graphs
 - [x] BFS
-* DFS
+- [x] DFS
 * Topological Sort & Shortest-path in a DAG
 * Shortest Path from source to all vertices **Dijkstra** 
 * Bellman-Ford
