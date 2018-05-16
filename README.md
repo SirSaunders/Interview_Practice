@@ -2,6 +2,7 @@
 Practice interview for general interview questions, answered in python 2.7, mostly tested with pytest
 
 Helpful reference link: https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/#algo1
+source of a lot of the questions: https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/
 
 
 
