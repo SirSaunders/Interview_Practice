@@ -2,12 +2,31 @@
 from Interview_Practive.Graphs.Graph import node
 from Interview_Practive.StacksQueuesandHeaps.implement_queue import Queue
 
-queue = Queue()
 root_node = None
-visited = set()
+
+def BFS(root_node, target):
+    queue = Queue()
+    visited = set()
 
 
-def BFS():
+    queue.queue(root_node)
+    visited.add(root_node.key)
+
+    while len(queue) > 0:
+        current_node = queue.dequeue()
+        edges = current_node.edges
+        for node in edges:
+            if node.key not in visited:
+                queue.queue(node)
+                visited.add(node.key)
+                if node.key is target:
+                    print('found')
+                    print('visited: ' + str(visited))
+                    return 'found'
+def BFS_traversal():
+    queue = Queue()
+    visited = set()
+
     queue.queue(root_node)
     print(queue.queueArry)
     visited.add(root_node.key)
@@ -34,17 +53,18 @@ def populate_graph():
     f = node('f')
     g = node('g')
 
-    root_node.edges = (b)
     b.edges = (c)
     c.edges = D
-    root_node.edges = (b)
     root_node.edges = (e)
     b.edges = (c)
     b.edges = (g)
     c.edges = (e)
     g.edges = (f)
-    f.edges = (root_node)
+    b.edges = e
 
 
 populate_graph()
-BFS()
+BFS_traversal()
+
+print('find target f')
+BFS(root_node, 'f')
