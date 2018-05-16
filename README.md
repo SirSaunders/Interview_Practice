@@ -79,7 +79,7 @@ Sorting
 - [x] Implement quick sort
 
 Graphs
-* BFS
+- [x] BFS
 * DFS
 * Topological Sort & Shortest-path in a DAG
 * Shortest Path from source to all vertices **Dijkstra** 
