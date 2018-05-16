@@ -1,6 +1,8 @@
 # Interview_Practive
 Practice interview for general interview questions, answered in python 2.7, mostly tested with pytest
 
+Helpful reference link: https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/#algo1
+
 
 
 General
@@ -65,7 +67,7 @@ Linked Lists
 - [x] Remove the Nth element of a linked list
 * Check if a linked list has cycles
 * Given a circular linked list, find the node at the beginning of the loop. Example: A-->B-->C --> D-->E -->C, C is the node that begins the loop
-* Check whether a link list is a palindrome
+- [x] Check whether a link list is a palindrome
 * Reverse a linked list iteratively and recursively
 
 
@@ -75,3 +77,24 @@ Sorting
 - [x] Implement insertion sort
 * Implement merge sort
 - [x] Implement quick sort
+
+Graphs
+* BFS
+* DFS
+* Topological Sort & Shortest-path in a DAG
+* Shortest Path from source to all vertices **Dijkstra** 
+* Bellman-Ford
+* A-star (A*)
+* Shortest Path from every vertex to every other vertex **Floyd Warshall**
+* To detect cycle in a Graph **Union Find**
+*  Minimum Spanning tree **Prim** 
+* Minimum Spanning tree **Kruskal** 
+* Topological Sort
+* Boggle (Find all possible words in a board of characters)
+* Bridges in a Graph
+
+Web Dev
+- React
+ https://www.edureka.co/blog/interview-questions/react-interview-questions/
+ - General Front end
+ https://github.com/h5bp/Front-end-Developer-Interview-Questions
