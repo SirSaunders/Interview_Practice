@@ -7,11 +7,8 @@ root_node = None
 def BFS(root_node, target):
     queue = Queue()
     visited = set()
-
-
     queue.queue(root_node)
     visited.add(root_node.key)
-
     while len(queue) > 0:
         current_node = queue.dequeue()
         edges = current_node.edges

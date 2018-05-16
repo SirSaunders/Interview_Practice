@@ -20,7 +20,11 @@ class Stack:
             item_index = len(self.stack) - 1
             item = self.stack[item_index]
             return item
+    def __len__(self):
+        return self.size
 
+    def __str__(self):
+        return str(self.stack)
 
 def t():
     stack = Stack()
@@ -29,9 +33,9 @@ def t():
     stack.push(4)
     stack.push(5)
     stack.push(6)
-    print stack
-    print stack.pop()
-    print stack
+    print (stack)
+    print (stack.pop())
+    print (stack)
 
 
 # t()

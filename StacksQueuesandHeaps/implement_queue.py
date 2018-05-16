@@ -19,12 +19,12 @@ class Queue:
             return item
         return None
 
-
     def __len__(self):
         return self._data_len
 
     def __str__(self):
         return str(self.queueArry)
+
 
 def t():
     queue = Queue()
@@ -32,10 +32,10 @@ def t():
     queue(2)
     queue(3)
     queue(4)
-    print (queue.queueArry)
-    print (queue.dequeue())
-    print (queue.dequeue())
-    print (queue.dequeue())
-    print (queue.queueArry)
+    print(queue.queueArry)
+    print(queue.dequeue())
+    print(queue.dequeue())
+    print(queue.dequeue())
+    print(queue.queueArry)
 
 # t()
